@@ -3,7 +3,7 @@ import {auth,provider} from "../../config/firebase-config"
 import {useNavigate} from "react-router-dom" // navigate pages
 import { useGetUserInfo } from '../../hooks/useGetUserInfo'
 import "./styles.css"
-import { useEffect } from 'react'
+
 import { Navigate } from 'react-router-dom'
 
 export const Auth =()=>{
